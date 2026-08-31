@@ -643,8 +643,13 @@ figure { margin: 0; }
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: baseline;
+  /* sem isto o card, esticado para a altura da fileira, reparte a sobra
+     esticando a 1a linha: o vão entre título e texto passava a depender do
+     tamanho do parágrafo (52px no card 1, 8px no card 4). Com start as
+     linhas ficam no tamanho natural e a sobra vai toda para o rodapé. */
+  align-content: start;
   column-gap: 1.25rem;
-  row-gap: .5rem;
+  row-gap: .85rem;
   padding: 1.75rem 1.5rem 1.6rem;
   background: var(--creme);
   border-radius: var(--raio-g);
@@ -986,6 +991,9 @@ figure { margin: 0; }
   .servicos_bloco:nth-child(even) .servicos_bloco_figura { order: -1; }
 
   .diferenciais_lista { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  /* com os cards lado a lado, reservar a altura de duas linhas faz o
+     texto dos quatro começar na mesma linha, mesmo com título de uma */
+  .diferenciais_card_titulo { min-height: calc(2 * 1.12 * 1.35rem); min-height: 2lh; }
 
   .portfolio_galeria { columns: 2; }
 
