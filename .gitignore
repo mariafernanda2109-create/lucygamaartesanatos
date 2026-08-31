@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.vercel
+*.log
+__pycache__/
+
+# config local do editor/agente, aponta para caminhos desta máquina
+.claude/
+
+# saída do build-preview.py, gerada a partir dos arquivos-fonte
+preview/
