@@ -1,6 +1,6 @@
 # Lucy Gama Artesanatos
 
-Landing page do ateliê Lucy Gama Artesanatos — Pops e Qposkets personalizados, peças em cerâmica e esculturas autorais. Objetivo único da página: gerar conversas no WhatsApp.
+Landing page do ateliê Lucy Gama Artesanatos — Pops e Icons personalizados, peças em cerâmica e esculturas autorais. Objetivo único da página: gerar conversas no WhatsApp.
 
 HTML, CSS e JavaScript puros. GSAP por CDN. Sem build, sem npm: dá para abrir o `index.html` com dois cliques e publicar direto na Vercel.
 
@@ -23,7 +23,7 @@ lucy-gama-artesanatos/
 
 1. **Número do WhatsApp** — está como `5543988290831` (o número informado, `43 8829-0831`, com o 9 de celular na frente). Confira e, se precisar, troque tudo de uma vez:
    `find . -name "*.html" -exec sed -i '' 's/5543988290831/55SEUNUMERO/g' {} +`
-2. **Fotos** — já são fotos reais: `hero.webp` (Lucy com o Pop da Frida), `lucy-atelie.webp` (Lucy modelando em argila), `servico-pop.webp` (Pop do Dr. Rodolfo), `servico-qposket.webp`, `servico-ceramica.webp` e `servico-escultura.webp`. Os quatro blocos de serviço já estão com foto real. O resto de `assets/img/` ainda é placeholder gráfico na paleta da marca — faltam as 12 peças do portfólio e o fundo do CTA final. Substitua pelos arquivos reais em WebP mantendo os mesmos nomes, ou atualize o `src`, o `alt`, o `width` e o `height` no HTML — as dimensões declaradas evitam o pulo de layout que o Core Web Vitals penaliza.
+2. **Fotos** — já são fotos reais: `hero.webp` (Lucy com o Pop da Frida), `lucy-atelie.webp` (Lucy modelando em argila), `servico-pop.webp` (Pop do Dr. Rodolfo), `servico-icon.webp`, `servico-ceramica.webp` e `servico-escultura.webp`. Os quatro blocos de serviço já estão com foto real. O resto de `assets/img/` ainda é placeholder gráfico na paleta da marca — faltam as 12 peças do portfólio e o fundo do CTA final. Substitua pelos arquivos reais em WebP mantendo os mesmos nomes, ou atualize o `src`, o `alt`, o `width` e o `height` no HTML — as dimensões declaradas evitam o pulo de layout que o Core Web Vitals penaliza.
 3. **Domínio** — trocar `https://lucygamaartesanatos.com.br` no `canonical`, no Open Graph, no JSON-LD e no `robots.txt`.
 4. **Instagram** — `https://www.instagram.com/lucygartesanatos`, no rodapé e no `sameAs` do JSON-LD.
 5. **Cidade e UF** — confirmado: Londrina/PR. Aparece no JSON-LD (`LocalBusiness` e `areaServed`), na meta description, no Open Graph e no rodapé.

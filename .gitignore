@@ -10,3 +10,5 @@ __pycache__/
 
 # saída do build-preview.py, gerada a partir dos arquivos-fonte
 preview/
+
+.vercel
