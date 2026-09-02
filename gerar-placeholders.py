@@ -138,7 +138,7 @@ def silhueta(tipo, w, h, cor):
                  f'C{hx-hr*1.9:.1f},{hy-hr*0.25:.1f} {hx-hr*0.75:.1f},{hy-hr*1.5:.1f} {hx:.1f},{hy-hr*0.45:.1f} '
                  f'C{hx+hr*0.75:.1f},{hy-hr*1.5:.1f} {hx+hr*1.9:.1f},{hy-hr*0.25:.1f} {hx:.1f},{hy+hr*1.1:.1f} Z" '
                  f'fill="{AMARELO}"/>')
-    elif tipo == "qposket":
+    elif tipo == "icon":
         # figura esbelta sobre base redonda, silhueta bem diferente da do pop
         cabeca = base - s * 0.475
         cintura = base - s * 0.245
@@ -235,9 +235,9 @@ def gerar(nome, w, h, tipo, fundo, blobs, cor_peca, rotulo, semente):
     partes.append(f'<path d="M{w*0.08:.0f},{h*0.90:.0f} C{w*0.22:.0f},{h*0.84:.0f} {w*0.34:.0f},{h*0.95:.0f} {w*0.46:.0f},{h*0.89:.0f}" '
                   f'fill="none" stroke="{ROXO}" stroke-width="{min(w,h)*0.006:.1f}" stroke-linecap="round" opacity=".22"/>')
     partes.append(f'<circle cx="{w*0.86:.0f}" cy="{h*0.12:.0f}" r="{min(w,h)*0.018:.1f}" fill="{AMARELO}"/>')
-    fonte = min(w, h) * 0.036
-    partes.append(f'<text x="{w*0.06:.0f}" y="{h*0.955:.0f}" font-family="Manrope, system-ui, sans-serif" '
-                  f'font-size="{fonte:.0f}" fill="{GRAFITE}" opacity=".45" letter-spacing="{fonte*0.06:.1f}">{rotulo}</text>')
+    # o rótulo vira comentário, não <text>: como estes SVG entram na página
+    # como imagem de verdade, um <text> aparecia escrito por cima do desenho
+    partes.append(f'<!-- placeholder: substituir por foto real — {rotulo} -->')
 
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img">\n  '
            + "\n  ".join(partes) + "\n</svg>\n")
@@ -253,8 +253,8 @@ PECAS = [
     ("lucy-atelie-reserva.svg", 720, 900, "artista", "#FBEFF2", [(LILAS, .5), (AZUL, .45)], ROXO, "Lucy no ateliê", 23),
     # o bloco de Pops usa foto real (assets/img/servico-pop.webp); placeholder de reserva
     ("servico-pop-reserva.svg", 800, 640, "pop", "#FDF3F6", [(ROSA, .8), (AMARELO, .35)], ROSA_Q, "Pop personalizado", 31),
-    # o bloco de Qposkets usa foto real (assets/img/servico-qposket.webp); placeholder de reserva
-    ("servico-qposket-reserva.svg", 800, 640, "qposket", "#FBF6E9", [(AMARELO, .7), (ROSA, .35)], ROSA_Q, "Qposket personalizado", 103),
+    # o bloco de Icons usa foto real (assets/img/servico-icon.webp); placeholder de reserva
+    ("servico-icon-reserva.svg", 800, 640, "icon", "#FBF6E9", [(AMARELO, .7), (ROSA, .35)], ROSA_Q, "Icon personalizado", 103),
     # o bloco de cerâmica usa foto real (assets/img/servico-ceramica.webp); placeholder de reserva
     ("servico-ceramica-reserva.svg", 800, 640, "vaso", "#F5F1FB", [(LILAS, .8), (ROSA, .3)], ROXO, "peça em cerâmica", 37),
     # o bloco de esculturas usa foto real (assets/img/servico-escultura.webp); placeholder de reserva
@@ -276,9 +276,9 @@ PECAS = [
     # esta peça usa foto real (assets/img/obra-08.webp); placeholder de reserva
     ("obra-08-reserva.svg", 900, 700, "escultura", "#FDF3F6", [(ROSA, .75), (AMARELO, .3)], ROXO, "peça autoral", 83),
     ("obra-09.svg", 800, 800, "tigela", "#FBF6E9", [(AMARELO, .65), (LILAS, .35)], ROSA_Q, "conjunto sob encomenda", 89),
-    ("obra-10.svg", 800, 1000, "qposket", "#FBF6E9", [(AMARELO, .7), (LILAS, .3)], ROSA_Q, "Qposket sob encomenda", 107),
+    ("obra-10.svg", 800, 1000, "icon", "#FBF6E9", [(AMARELO, .7), (LILAS, .3)], ROSA_Q, "Icon sob encomenda", 107),
     # esta peça usa foto real (assets/img/obra-11.webp); placeholder de reserva
-    ("obra-11-reserva.svg", 800, 800, "qposket", "#FDF3F6", [(ROSA, .75), (AZUL, .3)], ROXO, "Qposket autoral", 109),
+    ("obra-11-reserva.svg", 800, 800, "icon", "#FDF3F6", [(ROSA, .75), (AZUL, .3)], ROXO, "Icon autoral", 109),
     # esta peça usa foto real (assets/img/obra-12.webp); placeholder de reserva
     ("obra-12-reserva.svg", 900, 700, "pop_casal", "#FDF3F6", [(ROSA, .8), (AMARELO, .3)], ROSA_Q, "Pop de casal", 113),
     # esta peça usa foto real (assets/img/obra-14.webp); placeholder de reserva
