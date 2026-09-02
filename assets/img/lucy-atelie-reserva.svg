@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="720" height="900" role="img">
+  <rect width="720" height="900" fill="#FBEFF2"/>
+  <path d="M937.5,883.9 Q876.7,1035.2 725.4,1093.4 Q574.1,1151.7 470.9,1045.4 Q367.7,939.0 285.0,835.8 Q202.3,732.6 266.1,610.5 Q329.9,488.4 452.0,429.5 Q574.1,370.5 679.9,445.8 Q785.7,521.0 892.0,626.8 Q998.3,732.6 937.5,883.9 Z" fill="#DCCEF2" opacity="0.5"/>
+  <path d="M384.9,598.8 Q331.7,689.6 240.9,711.1 Q150.1,732.6 43.2,727.1 Q-63.6,721.7 -80.3,614.8 Q-96.9,508.0 -62.8,418.6 Q-28.7,329.2 60.7,283.4 Q150.1,237.7 256.4,266.5 Q362.8,295.3 400.4,401.6 Q438.1,508.0 384.9,598.8 Z" fill="#C9E3F2" opacity="0.45"/>
+  <line x1="0" y1="694.8" x2="720" y2="694.8" stroke="#302B32" stroke-width="2.9" opacity=".13"/>
+  <ellipse cx="360.0" cy="694.8" rx="216.0" ry="18.7" fill="#302B32" opacity=".07"/>
+  <circle cx="345.6" cy="320.4" r="80.6" fill="#59446F" opacity=".62"/>
+  <path d="M176.4,694.8 C190.8,464.4 266.4,399.6 345.6,399.6 C442.8,399.6 522.0,464.4 536.4,694.8 Z" fill="#59446F" opacity=".62"/>
+  <path d="M504.0,486.0 C532.8,586.8 468.0,622.8 414.0,608.4" fill="none" stroke="#59446F" stroke-width="37.4" stroke-linecap="round" opacity=".62"/>
+  <circle cx="392.4" cy="608.4" r="39.6" fill="#F8E7A9" opacity=".8"/>
+  <path d="M58,810 C158,756 245,855 331,801" fill="none" stroke="#59446F" stroke-width="4.3" stroke-linecap="round" opacity=".22"/>
+  <circle cx="619" cy="108" r="13.0" fill="#F8E7A9"/>
+  <text x="43" y="860" font-family="Manrope, system-ui, sans-serif" font-size="26" fill="#302B32" opacity=".45" letter-spacing="1.6">Lucy no ateliê</text>
+</svg>

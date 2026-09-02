@@ -886,11 +886,15 @@ figure { margin: 0; }
   z-index: 0;
 }
 
+/* O véu enfraquecia para baixo (.82 -> .66), mas é embaixo que a foto do
+   ateliê fica carregada, com a mesa cheia de peças: as duas últimas linhas
+   ficavam em 4.40 e 4.01 de contraste, abaixo dos 4.5 do AA. Invertido,
+   mostra mais foto em cima, onde ela é limpa, e protege o texto embaixo. */
 .contato_veu {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(255, 249, 245, .82), rgba(255, 249, 245, .66));
+  background: linear-gradient(180deg, rgba(255, 249, 245, .72), rgba(255, 249, 245, .84));
 }
 
 .contato_conteudo { position: relative; z-index: 2; max-width: 42rem; }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img">
+  <rect width="800" height="1000" fill="#FBF6E9"/>
+  <path d="M491.3,848.6 Q486.6,1010.9 324.2,1096.8 Q161.9,1182.7 22.0,1074.4 Q-118.0,966.0 -223.8,826.1 Q-329.7,686.2 -224.7,545.4 Q-119.8,404.5 21.1,328.8 Q161.9,253.1 334.1,297.5 Q506.2,341.9 501.1,514.0 Q496.1,686.2 491.3,848.6 Z" fill="#F8E7A9" opacity="0.7"/>
+  <path d="M647.7,923.7 Q577.2,1036.1 464.9,1054.7 Q352.6,1073.3 259.6,1035.3 Q166.7,997.3 115.1,904.4 Q63.5,811.4 78.0,681.4 Q92.6,551.4 222.6,493.5 Q352.6,435.6 456.8,519.2 Q561.1,602.8 639.6,707.1 Q718.1,811.4 647.7,923.7 Z" fill="#F6D6DF" opacity="0.35"/>
+  <line x1="0" y1="772.0" x2="800" y2="772.0" stroke="#302B32" stroke-width="3.2" opacity=".13"/>
+  <ellipse cx="400.0" cy="772.0" rx="240.0" ry="20.8" fill="#302B32" opacity=".07"/>
+  <path d="M316.0,772.0 C252.0,596.0 376.0,532.0 344.0,372.0 C316.0,244.0 476.0,228.0 480.0,380.0 C484.0,532.0 416.0,612.0 472.0,772.0 Z" fill="#B86F89" opacity=".62"/>
+  <circle cx="416.0" cy="332.0" r="27.2" fill="#FFF9F5" opacity=".45"/>
+  <path d="M64,900 C176,840 272,950 368,890" fill="none" stroke="#59446F" stroke-width="4.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="120" r="14.4" fill="#F8E7A9"/>
+  <text x="48" y="955" font-family="Manrope, system-ui, sans-serif" font-size="29" fill="#302B32" opacity=".45" letter-spacing="1.7">escultura em resina</text>
+</svg>

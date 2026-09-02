@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" role="img">
+  <rect width="800" height="640" fill="#F5F1FB"/>
+  <path d="M733.5,218.0 Q663.7,298.9 582.8,364.7 Q501.9,430.5 388.4,397.2 Q275.0,364.0 228.4,250.5 Q181.9,137.0 242.6,37.7 Q303.3,-61.5 402.6,-109.8 Q501.9,-158.0 594.9,-103.5 Q687.8,-48.9 745.5,44.1 Q803.3,137.0 733.5,218.0 Z" fill="#DCCEF2" opacity="0.8"/>
+  <path d="M813.7,565.1 Q782.0,660.4 686.7,718.5 Q591.5,776.5 511.3,703.4 Q431.0,630.3 395.0,550.1 Q358.9,469.9 401.1,395.7 Q443.2,321.6 517.3,285.8 Q591.5,250.0 664.8,286.6 Q738.1,323.3 791.7,396.6 Q845.3,469.9 813.7,565.1 Z" fill="#F6D6DF" opacity="0.3"/>
+  <line x1="0" y1="537.6" x2="800" y2="537.6" stroke="#302B32" stroke-width="2.6" opacity=".13"/>
+  <ellipse cx="400.0" cy="537.6" rx="192.0" ry="16.6" fill="#302B32" opacity=".07"/>
+  <path d="M352.0,153.6 C348.8,211.2 262.4,281.6 262.4,396.8 C262.4,524.8 326.4,537.6 339.2,537.6 L460.8,537.6 C473.6,537.6 537.6,524.8 537.6,396.8 C537.6,281.6 451.2,211.2 448.0,153.6 Z" fill="#59446F" opacity=".62"/>
+  <ellipse cx="400.0" cy="153.6" rx="48.0" ry="12.8" fill="#FFF9F5" opacity=".45"/>
+  <path d="M313.6,409.6 C368.0,435.2 432.0,435.2 486.4,409.6" fill="none" stroke="#FFF9F5" stroke-width="8.3" stroke-linecap="round" opacity=".5"/>
+  <path d="M64,576 C176,538 272,608 368,570" fill="none" stroke="#59446F" stroke-width="3.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="77" r="11.5" fill="#F8E7A9"/>
+  <text x="48" y="611" font-family="Manrope, system-ui, sans-serif" font-size="23" fill="#302B32" opacity=".45" letter-spacing="1.4">peça em cerâmica</text>
+</svg>

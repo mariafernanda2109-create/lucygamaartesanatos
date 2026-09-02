@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" role="img">
+  <rect width="800" height="640" fill="#EFF6FB"/>
+  <path d="M502.5,266.5 Q467.6,333.6 400.5,358.4 Q333.4,383.1 243.4,381.2 Q153.3,379.4 132.0,289.4 Q110.6,199.4 139.5,116.8 Q168.3,34.3 250.9,6.6 Q333.4,-21.0 405.6,16.9 Q477.9,54.9 507.7,127.1 Q537.5,199.4 502.5,266.5 Z" fill="#C9E3F2" opacity="0.85"/>
+  <path d="M865.1,440.6 Q803.1,526.3 717.4,598.6 Q631.7,671.0 538.4,606.3 Q445.1,541.6 365.9,448.3 Q286.8,354.9 370.9,266.5 Q454.9,178.1 543.3,105.3 Q631.7,32.4 718.9,106.5 Q806.1,180.5 866.6,267.7 Q927.0,354.9 865.1,440.6 Z" fill="#DCCEF2" opacity="0.35"/>
+  <line x1="0" y1="537.6" x2="800" y2="537.6" stroke="#302B32" stroke-width="2.6" opacity=".13"/>
+  <ellipse cx="400.0" cy="537.6" rx="192.0" ry="16.6" fill="#302B32" opacity=".07"/>
+  <path d="M332.8,537.6 C281.6,396.8 380.8,345.6 355.2,217.6 C332.8,115.2 460.8,102.4 464.0,224.0 C467.2,345.6 412.8,409.6 457.6,537.6 Z" fill="#59446F" opacity=".62"/>
+  <circle cx="412.8" cy="185.6" r="21.8" fill="#FFF9F5" opacity=".45"/>
+  <path d="M64,576 C176,538 272,608 368,570" fill="none" stroke="#59446F" stroke-width="3.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="77" r="11.5" fill="#F8E7A9"/>
+  <text x="48" y="611" font-family="Manrope, system-ui, sans-serif" font-size="23" fill="#302B32" opacity=".45" letter-spacing="1.4">escultura autoral</text>
+</svg>

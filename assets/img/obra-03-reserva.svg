@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img">
+  <rect width="800" height="800" fill="#EFF6FB"/>
+  <path d="M726.3,570.4 Q674.1,709.0 535.5,787.7 Q396.9,866.4 272.3,773.6 Q147.8,680.9 96.2,556.3 Q44.5,431.7 74.0,285.0 Q103.4,138.3 250.2,94.9 Q396.9,51.6 523.8,114.8 Q650.7,178.0 714.6,304.9 Q778.5,431.7 726.3,570.4 Z" fill="#C9E3F2" opacity="0.8"/>
+  <path d="M652.6,452.6 Q605.2,605.4 452.4,653.3 Q299.5,701.1 148.6,651.4 Q-2.4,601.7 -1.4,450.7 Q-0.5,299.7 17.0,167.3 Q34.6,34.8 167.1,-8.3 Q299.5,-51.4 414.3,9.4 Q529.1,70.2 614.6,185.0 Q700.0,299.7 652.6,452.6 Z" fill="#F8E7A9" opacity="0.25"/>
+  <line x1="0" y1="672.0" x2="800" y2="672.0" stroke="#302B32" stroke-width="3.2" opacity=".13"/>
+  <ellipse cx="400.0" cy="672.0" rx="240.0" ry="20.8" fill="#302B32" opacity=".07"/>
+  <path d="M176.0,480.0 C192.0,672.0 608.0,672.0 624.0,480.0 Z" fill="#59446F" opacity=".62"/>
+  <ellipse cx="400.0" cy="480.0" rx="224.0" ry="38.4" fill="#59446F" opacity=".34"/>
+  <ellipse cx="400.0" cy="480.0" rx="224.0" ry="38.4" fill="none" stroke="#FFF9F5" stroke-width="8.0" opacity=".45"/>
+  <path d="M64,720 C176,672 272,760 368,712" fill="none" stroke="#59446F" stroke-width="4.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="96" r="14.4" fill="#F8E7A9"/>
+  <text x="48" y="764" font-family="Manrope, system-ui, sans-serif" font-size="29" fill="#302B32" opacity=".45" letter-spacing="1.7">prato esmaltado</text>
+</svg>

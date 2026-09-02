@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img">
+  <rect width="800" height="800" fill="#F5F1FB"/>
+  <path d="M550.0,521.3 Q516.8,641.3 396.8,695.7 Q276.7,750.1 158.8,693.5 Q40.9,637.0 -17.3,519.1 Q-75.5,401.2 -18.7,281.9 Q38.1,162.6 157.4,110.9 Q276.7,59.2 380.9,126.0 Q485.2,192.7 534.1,297.0 Q583.1,401.2 550.0,521.3 Z" fill="#DCCEF2" opacity="0.8"/>
+  <path d="M641.9,565.9 Q612.7,683.2 495.4,743.7 Q378.1,804.2 239.7,764.8 Q101.3,725.4 86.2,587.0 Q71.2,448.6 107.8,331.7 Q144.5,214.9 261.3,177.8 Q378.1,140.8 495.8,177.0 Q613.6,213.2 642.3,330.9 Q671.1,448.6 641.9,565.9 Z" fill="#C9E3F2" opacity="0.3"/>
+  <line x1="0" y1="672.0" x2="800" y2="672.0" stroke="#302B32" stroke-width="3.2" opacity=".13"/>
+  <ellipse cx="400.0" cy="672.0" rx="240.0" ry="20.8" fill="#302B32" opacity=".07"/>
+  <path d="M276.0,672.0 C280.0,508.0 304.0,484.0 332.0,484.0 L468.0,484.0 C496.0,484.0 520.0,508.0 524.0,672.0 Z" fill="#B86F89" opacity=".62"/>
+  <circle cx="400.0" cy="356.7" r="148.0" fill="#B86F89" opacity=".62"/>
+  <path d="M318.6,288.6 C370.4,262.0 429.6,262.0 481.4,288.6" fill="none" stroke="#FFF9F5" stroke-width="9.6" stroke-linecap="round" opacity=".55"/>
+  <path d="M64,720 C176,672 272,760 368,712" fill="none" stroke="#59446F" stroke-width="4.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="96" r="14.4" fill="#F8E7A9"/>
+  <text x="48" y="764" font-family="Manrope, system-ui, sans-serif" font-size="29" fill="#302B32" opacity=".45" letter-spacing="1.7">Pop de pet</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img">
+  <rect width="900" height="700" fill="#F5F1FB"/>
+  <path d="M582.2,711.7 Q575.6,861.3 425.9,924.4 Q276.2,987.4 176.9,874.0 Q77.6,760.7 -28.1,661.3 Q-133.7,562.0 -66.3,424.4 Q1.0,286.8 138.6,232.5 Q276.2,178.2 374.9,271.4 Q473.6,364.7 531.1,463.3 Q588.7,562.0 582.2,711.7 Z" fill="#DCCEF2" opacity="0.75"/>
+  <line x1="0" y1="588.0" x2="900" y2="588.0" stroke="#302B32" stroke-width="2.8" opacity=".13"/>
+  <ellipse cx="450.0" cy="588.0" rx="210.0" ry="18.2" fill="#302B32" opacity=".07"/>
+  <path d="M397.5,168.0 C394.0,231.0 299.5,308.0 299.5,434.0 C299.5,574.0 369.5,588.0 383.5,588.0 L516.5,588.0 C530.5,588.0 600.5,574.0 600.5,434.0 C600.5,308.0 506.0,231.0 502.5,168.0 Z" fill="#59446F" opacity=".62"/>
+  <ellipse cx="450.0" cy="168.0" rx="52.5" ry="14.0" fill="#FFF9F5" opacity=".45"/>
+  <path d="M355.5,448.0 C415.0,476.0 485.0,476.0 544.5,448.0" fill="none" stroke="#FFF9F5" stroke-width="9.1" stroke-linecap="round" opacity=".5"/>
+  <path d="M72,630 C198,588 306,665 414,623" fill="none" stroke="#59446F" stroke-width="4.2" stroke-linecap="round" opacity=".22"/>
+  <circle cx="774" cy="84" r="12.6" fill="#F8E7A9"/>
+  <text x="54" y="668" font-family="Manrope, system-ui, sans-serif" font-size="25" fill="#302B32" opacity=".45" letter-spacing="1.5">utilitários</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img">
+  <rect width="800" height="1000" fill="#EFF6FB"/>
+  <path d="M403.5,483.4 Q378.8,572.1 290.1,597.8 Q201.4,623.5 117.0,593.4 Q32.6,563.4 -28.7,479.0 Q-90.0,394.7 -24.9,314.1 Q40.2,233.5 120.8,188.6 Q201.4,143.6 283.9,186.7 Q366.3,229.7 397.2,312.2 Q428.1,394.7 403.5,483.4 Z" fill="#C9E3F2" opacity="0.75"/>
+  <path d="M483.5,709.7 Q407.7,784.7 332.7,863.2 Q257.7,941.7 170.8,875.1 Q83.9,808.5 65.8,721.6 Q47.8,634.7 76.1,558.1 Q104.5,481.5 181.1,424.3 Q257.7,367.1 357.7,400.9 Q457.6,434.7 508.5,534.7 Q559.3,634.7 483.5,709.7 Z" fill="#F6D6DF" opacity="0.3"/>
+  <line x1="0" y1="772.0" x2="800" y2="772.0" stroke="#302B32" stroke-width="3.2" opacity=".13"/>
+  <ellipse cx="400.0" cy="772.0" rx="240.0" ry="20.8" fill="#302B32" opacity=".07"/>
+  <path d="M340.0,292.0 C336.0,364.0 228.0,452.0 228.0,596.0 C228.0,756.0 308.0,772.0 324.0,772.0 L476.0,772.0 C492.0,772.0 572.0,756.0 572.0,596.0 C572.0,452.0 464.0,364.0 460.0,292.0 Z" fill="#59446F" opacity=".62"/>
+  <ellipse cx="400.0" cy="292.0" rx="60.0" ry="16.0" fill="#FFF9F5" opacity=".45"/>
+  <path d="M292.0,612.0 C360.0,644.0 440.0,644.0 508.0,612.0" fill="none" stroke="#FFF9F5" stroke-width="10.4" stroke-linecap="round" opacity=".5"/>
+  <path d="M64,900 C176,840 272,950 368,890" fill="none" stroke="#59446F" stroke-width="4.8" stroke-linecap="round" opacity=".22"/>
+  <circle cx="688" cy="120" r="14.4" fill="#F8E7A9"/>
+  <text x="48" y="955" font-family="Manrope, system-ui, sans-serif" font-size="29" fill="#302B32" opacity=".45" letter-spacing="1.7">cerâmica utilitária</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700" role="img">
+  <rect width="900" height="700" fill="#FBF6E9"/>
+  <path d="M524.8,570.6 Q510.5,659.0 422.1,662.1 Q333.7,665.2 262.1,645.3 Q190.5,625.4 155.8,553.8 Q121.0,482.2 134.6,389.5 Q148.2,296.7 241.0,285.2 Q333.7,273.7 416.0,295.7 Q498.3,317.7 518.7,400.0 Q539.1,482.2 524.8,570.6 Z" fill="#F8E7A9" opacity="0.7"/>
+  <path d="M586.5,416.6 Q556.3,537.0 436.0,605.8 Q315.7,674.6 208.5,592.7 Q101.3,510.8 6.8,403.6 Q-87.7,296.3 4.6,187.0 Q97.0,77.6 206.3,40.1 Q315.7,2.6 435.6,29.5 Q555.6,56.5 586.1,176.4 Q616.7,296.3 586.5,416.6 Z" fill="#F6D6DF" opacity="0.3"/>
+  <line x1="0" y1="588.0" x2="900" y2="588.0" stroke="#302B32" stroke-width="2.8" opacity=".13"/>
+  <ellipse cx="450.0" cy="588.0" rx="210.0" ry="18.2" fill="#302B32" opacity=".07"/>
+  <path d="M253.9,588.0 C256.6,467.5 274.8,449.8 295.0,449.8 L395.0,449.8 C415.2,449.8 433.4,467.5 436.1,588.0 Z" fill="#B86F89" opacity=".50"/>
+  <circle cx="345.0" cy="356.3" r="108.8" fill="#B86F89" opacity=".50"/>
+  <path d="M285.2,306.2 C323.2,286.6 366.8,286.6 404.8,306.2" fill="none" stroke="#FFF9F5" stroke-width="7.1" stroke-linecap="round" opacity=".55"/>
+  <path d="M453.0,588.0 C456.1,453.1 476.5,433.4 499.1,433.4 L610.9,433.4 C633.5,433.4 653.9,453.1 657.0,588.0 Z" fill="#B86F89" opacity=".66"/>
+  <circle cx="555.0" cy="328.7" r="121.7" fill="#B86F89" opacity=".66"/>
+  <path d="M488.0,272.7 C530.7,250.8 579.3,250.8 622.0,272.7" fill="none" stroke="#FFF9F5" stroke-width="7.9" stroke-linecap="round" opacity=".55"/>
+  <path d="M450.0,276.6 C407.4,246.4 433.2,218.4 450.0,241.9 C466.8,218.4 492.6,246.4 450.0,276.6 Z" fill="#F8E7A9"/>
+  <path d="M72,630 C198,588 306,665 414,623" fill="none" stroke="#59446F" stroke-width="4.2" stroke-linecap="round" opacity=".22"/>
+  <circle cx="774" cy="84" r="12.6" fill="#F8E7A9"/>
+  <text x="54" y="668" font-family="Manrope, system-ui, sans-serif" font-size="25" fill="#302B32" opacity=".45" letter-spacing="1.5">Pop de casal</text>
+</svg>

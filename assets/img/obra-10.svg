@@ -13,5 +13,5 @@
   <path d="M340.0,371.2 C376.0,321.6 424.0,321.6 460.0,371.2 C432.0,350.4 368.0,350.4 340.0,371.2 Z" fill="#B86F89" opacity=".85"/>
   <path d="M64,900 C176,840 272,950 368,890" fill="none" stroke="#59446F" stroke-width="4.8" stroke-linecap="round" opacity=".22"/>
   <circle cx="688" cy="120" r="14.4" fill="#F8E7A9"/>
-  <!-- placeholder: substituir por foto real — Qposket sob encomenda -->
+  <text x="48" y="955" font-family="Manrope, system-ui, sans-serif" font-size="29" fill="#302B32" opacity=".45" letter-spacing="1.7">Qposket sob encomenda</text>
 </svg>
