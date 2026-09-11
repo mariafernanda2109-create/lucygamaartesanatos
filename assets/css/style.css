@@ -475,15 +475,24 @@ figure { margin: 0; }
   overflow: hidden;
 }
 
-.servicos_bloco_texto { padding: clamp(1.75rem, 5vw, 3.25rem); }
+/* coluna, para o botão poder ir ao pé do card e alinhar com os vizinhos
+   mesmo com textos de tamanhos diferentes */
+.servicos_bloco_texto {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.75rem, 5vw, 3.25rem);
+}
 .servicos_bloco_titulo { margin-bottom: .5em; }
 .servicos_bloco_texto p { color: var(--grafite); }
-.servicos_bloco_texto .botao { margin-top: 1rem; }
+/* empurra o botão para o pé: a sobra de altura dos cards mais curtos vai
+   para o vão entre texto e botão, em vez de esticar a foto */
+.servicos_bloco_texto p:last-of-type { margin-bottom: 1rem; }
+.servicos_bloco_texto .botao { margin-top: auto; align-self: flex-start; }
 
 .servicos_bloco_figura { order: -1; }
 /* no empilhado do celular a foto assume 5:4, pra qualquer proporção de arquivo
    caber no bloco sem esticar a seção */
-.servicos_bloco_figura img { width: 100%; height: 100%; aspect-ratio: 5 / 4; object-fit: cover; }
+.servicos_bloco_figura img { width: 100%; height: auto; aspect-ratio: 5 / 4; object-fit: cover; }
 
 .servicos_bloco_rosa { background: var(--rosa-claro); }
 .servicos_bloco_amarelo { background: var(--amarelo-claro); }
@@ -1003,7 +1012,7 @@ figure { margin: 0; }
 @media (min-width: 48em) {
   .servicos_bloco { grid-template-columns: 1fr 1fr; align-items: center; }
   .servicos_bloco_figura { order: 0; height: 100%; }
-  .servicos_bloco_figura img { aspect-ratio: auto; }
+  .servicos_bloco_figura img { height: 100%; aspect-ratio: auto; }
   /* alterna o lado da foto a cada bloco */
   .servicos_bloco:nth-child(even) .servicos_bloco_figura { order: -1; }
 
