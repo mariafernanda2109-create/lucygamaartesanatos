@@ -1,5 +1,5 @@
 /* =========================================================
-   Lucy Gama Artesanatos
+   Lucy Gama Ateliê
    A página funciona inteira sem este arquivo.
    Aqui só tem comportamento e movimento.
    ========================================================= */
