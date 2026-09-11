@@ -958,6 +958,19 @@ figure { margin: 0; }
   color: var(--roxo);
 }
 
+/* crédito de autoria: no celular cai em linha própria, alinhado à
+   esquerda como o resto; do tablet pra cima vai para a ponta direita,
+   separando-o da linha legal do ateliê */
+.rodape_autoria a {
+  color: var(--roxo);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(89, 68, 111, .3);
+  padding-bottom: .1rem;
+  transition: border-color var(--transicao);
+}
+.rodape_autoria a:hover { border-color: var(--roxo); }
+
 /* =========================================================
    WhatsApp fixo
    celular: barra inferior. desktop: botão flutuante.
@@ -1009,6 +1022,7 @@ figure { margin: 0; }
     gap: 2.5rem;
   }
   .rodape_nav { justify-content: center; }
+  .rodape_autoria { margin-left: auto; }
 }
 
 /* =========================================================
