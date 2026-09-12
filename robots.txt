@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lucygamaartesanatos.com.br/sitemap.xml
+Sitemap: https://lucygamaatelie.vercel.app/sitemap.xml

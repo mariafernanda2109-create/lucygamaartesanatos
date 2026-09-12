@@ -24,7 +24,7 @@ lucy-gama-artesanatos/
 1. **Número do WhatsApp** — está como `5543999360866` (o número informado, `43 8829-0831`, com o 9 de celular na frente). Confira e, se precisar, troque tudo de uma vez:
    `find . -name "*.html" -exec sed -i '' 's/5543999360866/55SEUNUMERO/g' {} +`
 2. **Fotos** — já são fotos reais: `hero.webp` (Lucy com o Pop da Frida), `lucy-atelie.webp` (Lucy modelando em argila), `servico-pop.webp` (Pop do Dr. Rodolfo), `servico-icon.webp`, `servico-ceramica.webp` e `servico-escultura.webp`. Os quatro blocos de serviço já estão com foto real. O resto de `assets/img/` ainda é placeholder gráfico na paleta da marca — faltam as 12 peças do portfólio e o fundo do CTA final. Substitua pelos arquivos reais em WebP mantendo os mesmos nomes, ou atualize o `src`, o `alt`, o `width` e o `height` no HTML — as dimensões declaradas evitam o pulo de layout que o Core Web Vitals penaliza.
-3. **Domínio** — trocar `https://lucygamaartesanatos.com.br` no `canonical`, no Open Graph, no JSON-LD e no `robots.txt`.
+3. **Domínio** — trocar `https://lucygamaatelie.vercel.app` no `canonical`, no Open Graph, no JSON-LD e no `robots.txt`.
 4. **Instagram** — `https://www.instagram.com/lucygartesanatos`, no rodapé e no `sameAs` do JSON-LD.
 5. **Cidade e UF** — confirmado: Londrina/PR. Aparece no JSON-LD (`LocalBusiness` e `areaServed`), na meta description, no Open Graph e no rodapé.
 6. **`og.jpg`** — gerar uma imagem de compartilhamento 1200x630 em `assets/img/og.jpg`.
