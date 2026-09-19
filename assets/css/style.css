@@ -967,9 +967,9 @@ figure { margin: 0; }
   color: var(--roxo);
 }
 
-/* crédito de autoria: no celular cai em linha própria, alinhado à
-   esquerda como o resto; do tablet pra cima vai para a ponta direita,
-   separando-o da linha legal do ateliê */
+/* crédito de autoria: segue o fluxo da linha de créditos, à esquerda.
+   Encostado à direita ele caía embaixo do botão flutuante do WhatsApp,
+   que no desktop fica em right: 1.75rem — 158 dos 172px ficavam tampados. */
 .rodape_autoria a {
   color: var(--roxo);
   font-weight: 600;
@@ -1031,7 +1031,6 @@ figure { margin: 0; }
     gap: 2.5rem;
   }
   .rodape_nav { justify-content: center; }
-  .rodape_autoria { margin-left: auto; }
 }
 
 /* =========================================================
