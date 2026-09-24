@@ -103,6 +103,10 @@
     }
   }
   </script>
+
+  <!-- Vercel Web Analytics: sem cookie, serve de /_vercel/ na mesma origem,
+       então a CSP existente já cobre. Precisa estar ligado no painel. -->
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -499,7 +503,7 @@
     </section>
 
     <!-- ================= CTA INTERMEDIÁRIO ================= -->
-    <section class="convite">
+    <section id="ideia" class="convite">
       <div class="forma forma_convite_1" aria-hidden="true"></div>
       <div class="forma forma_convite_2" aria-hidden="true"></div>
       <div class="forma forma_convite_3" aria-hidden="true"></div>

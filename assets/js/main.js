@@ -247,3 +247,29 @@ if (!semMovimento && typeof gsap !== 'undefined') {
   // recalcula posições depois que fontes e imagens carregam
   window.addEventListener('load', () => ScrollTrigger.refresh());
 }
+
+/* ---------------------------------------------------------
+   8. Evento de conversão
+   O objetivo único da página é abrir conversa no WhatsApp.
+   Pageview sozinho não diz se isso acontece, então cada
+   clique vira um evento nomeado.
+
+   window.va só existe depois que o script da Vercel carrega,
+   e eventos nomeados exigem plano Pro. Em Hobby a chamada é
+   ignorada sem quebrar nada — daí o guard.
+   --------------------------------------------------------- */
+function origemDoLink(link) {
+  if (link.classList.contains('whats_fixo')) return 'barra_fixa';
+  if (link.closest('header')) return 'cabecalho';
+  if (link.closest('footer')) return 'rodape';
+  const secao = link.closest('section');
+  if (secao && secao.id) return secao.id;
+  return 'outro';
+}
+
+document.querySelectorAll('a[href*="wa.me"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    if (typeof window.va !== 'function') return;
+    window.va('event', { name: 'whatsapp', data: { origem: origemDoLink(link) } });
+  });
+});
