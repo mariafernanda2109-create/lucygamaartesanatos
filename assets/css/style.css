@@ -1140,3 +1140,67 @@ figure { margin: 0; }
     transition-duration: .001ms !important;
   }
 }
+
+/* =========================================================
+   Página 404
+   Reaproveita os tokens e componentes do site. Sem GSAP:
+   página de erro não precisa de animação de entrada.
+   ========================================================= */
+.pagina_erro { min-height: 100svh; display: flex; flex-direction: column; }
+
+.erro {
+  position: relative;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: clamp(7rem, 16vw, 11rem) 0 var(--espaco-secao);
+  overflow: hidden;
+}
+
+.erro_conteudo { position: relative; z-index: 1; max-width: 34rem; text-align: center; }
+
+/* o número é ornamento: o leitor de tela já recebe o título */
+.erro_codigo {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(5rem, 18vw, 9rem);
+  line-height: .9;
+  color: var(--amarelo);
+  margin: 0 0 .1em;
+}
+
+.erro_titulo { margin-bottom: .35em; }
+
+.erro_texto {
+  font-size: clamp(1.02rem, 1vw + .9rem, 1.2rem);
+  color: var(--grafite-suave);
+  max-width: 34ch;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.erro_acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  justify-content: center;
+}
+
+.erro_atalhos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1.35rem;
+  justify-content: center;
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(89, 68, 111, .12);
+}
+
+.erro_atalhos a {
+  padding: .35rem 0;
+  color: var(--grafite-suave);
+  font-size: .95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--transicao);
+}
+.erro_atalhos a:hover { color: var(--roxo); }
