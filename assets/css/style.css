@@ -1204,3 +1204,85 @@ figure { margin: 0; }
   transition: color var(--transicao);
 }
 .erro_atalhos a:hover { color: var(--roxo); }
+
+/* =========================================================
+   Páginas legais
+   Texto longo para leitura, não para escaneio. Medida curta,
+   entrelinha folgada e hierarquia só com peso e espaço.
+   ========================================================= */
+.pagina_legal { min-height: 100svh; display: flex; flex-direction: column; }
+
+.legal {
+  flex: 1;
+  padding: clamp(7rem, 16vw, 10rem) 0 var(--espaco-secao);
+}
+
+/* 66ch é o limite de leitura confortável para corpo de texto */
+.legal_conteudo { max-width: 42rem; }
+
+.legal_rotulo {
+  margin: 0 0 .75rem;
+  font-size: var(--t-rotulo);
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--rosa-queimado);
+}
+
+.legal_titulo { margin-bottom: .3em; }
+
+.legal_data {
+  margin: 0 0 2.5rem;
+  font-size: var(--t-pequeno);
+  color: var(--grafite-suave);
+}
+
+.legal_resumo {
+  margin-bottom: 3rem;
+  padding: clamp(1.25rem, 4vw, 1.75rem);
+  background: var(--lilas-claro);
+  border-radius: var(--raio);
+  border-left: 3px solid var(--lilas);
+}
+.legal_resumo p { margin: 0; }
+
+/* o espaço acima do título separa mais que o de baixo,
+   para o título grudar no texto que ele nomeia */
+.legal h2 {
+  margin: 3rem 0 .85rem;
+  font-size: clamp(1.25rem, 1.6vw + 1rem, 1.6rem);
+}
+
+.legal p, .legal li { color: var(--grafite-suave); line-height: 1.75; }
+.legal p { margin: 0 0 1.1rem; }
+.legal p:last-child { margin-bottom: 0; }
+
+.legal ul {
+  margin: 0 0 1.1rem;
+  padding-left: 1.4rem;
+  display: grid;
+  gap: .6rem;
+}
+
+.legal strong { color: var(--grafite); font-weight: 600; }
+
+.legal a {
+  color: var(--roxo);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(89, 68, 111, .3);
+  transition: border-color var(--transicao);
+}
+.legal a:hover { border-color: var(--roxo); }
+.legal .botao { border-bottom: 0; }
+
+.legal_acoes {
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(89, 68, 111, .12);
+}
+
+/* Privacidade fica na navegação do rodapé, não na linha de créditos:
+   na linha de créditos ela empurrava "Site feito por Maria Fernanda"
+   para baixo do botão flutuante do WhatsApp em telas de ~1000px. */
+.rodape_legal[aria-current="page"] { color: var(--roxo); font-weight: 600; }
