@@ -296,11 +296,4 @@ os.makedirs(SAIDA, exist_ok=True)
 for peca in PECAS:
     gerar(*peca)
 
-# favicon simples
-with open(os.path.join(SAIDA, "favicon.svg"), "w", encoding="utf-8") as f:
-    f.write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">'
-            f'<rect width="64" height="64" rx="16" fill="{ROXO}"/>'
-            f'<path d="M22 18v22h20" fill="none" stroke="{CREME}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>'
-            f'<circle cx="45" cy="21" r="5" fill="{AMARELO}"/></svg>\n')
-
 print("\n".join(sorted(os.listdir(SAIDA))))

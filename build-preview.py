@@ -48,7 +48,6 @@ def troca_src(m):
 
 
 saida = re.sub(r'src="(assets/img/[^"]+)"', troca_src, html)
-saida = re.sub(r'href="assets/img/favicon\.svg"', 'href="%s"' % img_data_uri("assets/img/favicon.svg"), saida)
 
 # CSS e JS inline
 saida = saida.replace(
