@@ -250,10 +250,23 @@ figure { margin: 0; }
 
 .cabecalho_marca, .rodape_marca {
   display: flex;
-  flex-direction: column;
   line-height: 1;
   text-decoration: none;
   color: var(--roxo);
+}
+
+.rodape_marca { flex-direction: column; }
+
+/* no cabeçalho o símbolo fica à esquerda do nome, os dois centrados
+   entre si — o nome não alinha pelo topo do desenho nem pela base */
+.cabecalho_marca { align-items: center; gap: .65rem; }
+.cabecalho_marca_texto { display: flex; flex-direction: column; }
+
+.cabecalho_logo {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
 }
 
 .cabecalho_marca_nome {
