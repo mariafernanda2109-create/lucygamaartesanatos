@@ -231,7 +231,7 @@ figure { margin: 0; }
   inset: 0 0 auto 0;
   z-index: 100;
   padding: .9rem 0;
-  transition: background var(--transicao), box-shadow var(--transicao), padding var(--transicao);
+  transition: background var(--transicao), box-shadow var(--transicao);
 }
 
 .cabecalho_rolado,
@@ -1242,7 +1242,6 @@ figure { margin: 0; }
   padding: clamp(1.25rem, 4vw, 1.75rem);
   background: var(--lilas-claro);
   border-radius: var(--raio);
-  border-left: 3px solid var(--lilas);
 }
 .legal_resumo p { margin: 0; }
 
