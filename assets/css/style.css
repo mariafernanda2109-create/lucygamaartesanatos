@@ -243,7 +243,7 @@ figure { margin: 0; }
   clip-path: inset(0 0 0 0);
   transition: clip-path 1.2s cubic-bezier(.76, 0, .24, 1);
   /* rede de segurança: se o script travar, a abertura some sozinha */
-  animation: abertura_some 0s 7s forwards;
+  animation: abertura_some 0s 6s forwards;
 }
 
 .abertura.abertura_saindo { clip-path: inset(0 0 100% 0); }
@@ -261,13 +261,13 @@ figure { margin: 0; }
 .abertura_nome,
 .abertura_tipo {
   opacity: 0;
-  animation: abertura_surge 1.1s cubic-bezier(.22, 1, .36, 1) forwards;
+  animation: abertura_surge .7s cubic-bezier(.22, 1, .36, 1) forwards;
 }
 
 .abertura_logo {
   width: clamp(6.5rem, 26vw, 8.5rem);
   height: auto;
-  animation-delay: .1s;
+  animation-delay: 0s;
 }
 
 .abertura_nome {
@@ -277,7 +277,7 @@ figure { margin: 0; }
   line-height: 1;
   letter-spacing: .02em;
   color: var(--roxo);
-  animation-delay: .3s;
+  animation-delay: .1s;
 }
 
 .abertura_tipo {
@@ -289,7 +289,7 @@ figure { margin: 0; }
   letter-spacing: .34em;
   text-transform: uppercase;
   color: var(--rosa-queimado);
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 @keyframes abertura_surge {

@@ -11,8 +11,8 @@
    ========================================================= */
 (function () {
   var raiz = document.documentElement;
-  var MINIMO = 2000;   // tempo mínimo na tela, para a logo ser vista
-  var MAXIMO = 5000;   // em conexão lenta, não segura a pessoa além disso
+  var MINIMO = 1000;   // tempo mínimo na tela, para a logo ser vista
+  var MAXIMO = 4000;   // em conexão lenta, não segura a pessoa além disso
   var SAIDA = 1200;    // duração da cortina subindo, igual ao CSS
   var CHAVE = 'lg-abertura';
 
