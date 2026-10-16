@@ -192,8 +192,8 @@ if (trilho && !semMovimento) {
 if (!semMovimento && typeof gsap !== 'undefined') {
   gsap.registerPlugin(ScrollTrigger);
 
-  // entrada do hero
-  gsap.timeline({ defaults: { ease: 'power3.out', duration: 1 } })
+  // entrada do hero: espera a abertura do intro.js sair, se ela estiver na tela
+  const entradaHero = gsap.timeline({ paused: true, defaults: { ease: 'power3.out', duration: 1 } })
     .from('.hero_selo', { opacity: 0, y: 16 })
     .from('.hero_titulo', { opacity: 0, y: 30 }, '-=0.8')
     .from('.hero_subtitulo', { opacity: 0, y: 24 }, '-=0.78')
@@ -201,6 +201,12 @@ if (!semMovimento && typeof gsap !== 'undefined') {
     .from('.hero_acoes', { opacity: 0, y: 20 }, '-=0.8')
     .from('.hero_descer', { opacity: 0, duration: .8 }, '-=0.6')
     .from('.hero_figura', { opacity: 0, scale: 1.04, duration: 1.3 }, '-=1.25');
+
+  if (document.documentElement.classList.contains('abrindo')) {
+    window.addEventListener('abertura:fim', () => entradaHero.play(), { once: true });
+  } else {
+    entradaHero.play();
+  }
 
   // revelar blocos ao rolar
   gsap.utils.toArray('[data-anim="revelar"]').forEach((elemento) => {

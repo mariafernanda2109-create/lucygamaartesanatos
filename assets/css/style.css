@@ -224,6 +224,84 @@ figure { margin: 0; }
 }
 
 /* =========================================================
+   Abertura
+   Só aparece quando o intro.js liga a classe "abrindo" no <html>.
+   Na saída, a cortina sobe e a logo sobe junto, sumindo.
+   ========================================================= */
+.abertura { display: none; }
+
+.abrindo { overflow: hidden; }
+
+.abrindo .abertura,
+.abertura.abertura_saindo {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  background: var(--creme);
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1.2s cubic-bezier(.76, 0, .24, 1);
+  /* rede de segurança: se o script travar, a abertura some sozinha */
+  animation: abertura_some 0s 7s forwards;
+}
+
+.abertura.abertura_saindo { clip-path: inset(0 0 100% 0); }
+
+.abertura_palco {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  transition: transform 1.2s cubic-bezier(.76, 0, .24, 1), opacity .7s cubic-bezier(.22, 1, .36, 1);
+}
+
+.abertura_saindo .abertura_palco { transform: translateY(-8vh); opacity: 0; }
+
+.abertura_logo,
+.abertura_nome,
+.abertura_tipo {
+  opacity: 0;
+  animation: abertura_surge 1.1s cubic-bezier(.22, 1, .36, 1) forwards;
+}
+
+.abertura_logo {
+  width: clamp(6.5rem, 26vw, 8.5rem);
+  height: auto;
+  animation-delay: .1s;
+}
+
+.abertura_nome {
+  margin: 1.1rem 0 0;
+  font-family: var(--fonte-titulo);
+  font-size: clamp(2.1rem, 8vw, 2.8rem);
+  line-height: 1;
+  letter-spacing: .02em;
+  color: var(--roxo);
+  animation-delay: .3s;
+}
+
+.abertura_tipo {
+  margin: .6rem 0 0;
+  /* o recuo compensa o espaçamento da última letra e centraliza a palavra */
+  padding-left: .34em;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .34em;
+  text-transform: uppercase;
+  color: var(--rosa-queimado);
+  animation-delay: .5s;
+}
+
+@keyframes abertura_surge {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes abertura_some {
+  to { visibility: hidden; }
+}
+
+/* =========================================================
    Cabeçalho
    ========================================================= */
 .cabecalho {

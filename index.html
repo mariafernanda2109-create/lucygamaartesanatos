@@ -28,6 +28,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- abertura com a logo: precisa decidir antes do primeiro desenho da página -->
+  <script src="assets/js/intro.js"></script>
 
   <!-- Dados estruturados de negócio local: ajudam o ateliê a aparecer em buscas de Londrina. -->
   <script type="application/ld+json">
@@ -146,6 +148,15 @@
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
+
+  <!-- Abertura: só aparece com a classe "abrindo", ligada pelo intro.js -->
+  <div class="abertura" aria-hidden="true">
+    <div class="abertura_palco">
+      <img class="abertura_logo" src="/assets/img/logo.webp" alt="" width="512" height="512">
+      <p class="abertura_nome">Lucy Gama</p>
+      <p class="abertura_tipo">ateliê</p>
+    </div>
+  </div>
 
   <a href="#inicio" class="pular_link">Pular para o conteúdo</a>
 
